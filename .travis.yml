@@ -3,7 +3,7 @@ node_js:
   - "node"
 before_script:
   - npm install -g tiddlywiki
-script: tiddlywiki garden --build static
+script: ./build.sh
 deploy:
   provider: pages
   local_dir: garden/output/static
