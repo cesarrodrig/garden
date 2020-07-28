@@ -1,0 +1,26 @@
+created: 20200728184730584
+modified: 20200728185359498
+module-type: macro
+tags: 
+title: $:/garden/static/export/get-export-path.js
+type: application/javascript
+
+(function(){
+"use strict";
+
+exports.name = "tv-get-export-path";
+
+exports.params = [
+    {title: ""}
+];
+
+/*
+Run the macro
+*/
+exports.run = function(title) {
+                       
+    var sanitized_title = title.replace(/([^a-z0-9]+)/gi, '-');
+    return ("./static/"+ sanitized_title).toLocaleLowerCase();
+    console.log("au");
+}
+})();

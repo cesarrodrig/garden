@@ -1,0 +1,6 @@
+created: 20200728173543988
+list: $:/core/ui/PageTemplate/topleftbar $:/core/ui/PageTemplate/toprightbar $:/core/ui/PageTemplate/sidebar $:/core/ui/PageTemplate/story $:/core/ui/PageTemplate/alerts
+modified: 20200728174317451
+tags: 
+title: $:/tags/StaticPageTemplate
+type: text/vnd.tiddlywiki

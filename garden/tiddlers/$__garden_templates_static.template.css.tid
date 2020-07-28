@@ -1,0 +1,21 @@
+created: 20200728175144963
+modified: 20200728175158313
+tags: 
+title: $:/garden/templates/static.template.css
+type: text/vnd.tiddlywiki
+
+{{$:/boot/boot.css||$:/core/templates/plain-text-tiddler}}
+
+{{$:/core/ui/PageStylesheet||$:/core/templates/wikified-tiddler}}
+
+.tc-tiddler-controls {
+   display: none;
+}
+
+.tc-page-controls {
+    display: none;
+}
+
+.tc-tab-buttons {
+   display: none;
+}

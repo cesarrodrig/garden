@@ -1,0 +1,14 @@
+created: 20200728170602637
+modified: 20200728171609983
+tags: 
+title: $:/StaticBanner
+type: text/vnd.tiddlywiki
+
+<!--nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">Idea Farm</a>
+    <ul class="navbar-nav  ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+</nav-->
