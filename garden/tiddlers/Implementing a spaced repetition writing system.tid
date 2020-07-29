@@ -1,35 +1,64 @@
 created: 20200727223612363
-modified: 20200729174022940
+modified: 20200729210939919
 tags: 
 title: Implementing a spaced repetition writing system
 type: text/x-markdown
 
 Spaced repetition is usually used as a memorization technique, a form of processing inputs.
 
-It is also interesting to look at how spaced repetition can be applied to other cognitive activities, particularly activities that produce an output. For example: writing.
+It is also interesting to look at how spaced repetition can be applied to other cognitive activities, particularly activities that produce an output. An example is **writing**. 
 
 ## Objectives
-The main objective is to make writing a daily activity without necessarily aiming at producing long format texts while also helping to cultivate a garden of knowledge.
+The main objective is to make writing a daily activity, helping to cultivate a garden of knowledge without necessarily aiming at producing long format texts.
 
-A secondary objective is to take advantage of the randomness in spaced repetition [[foment a serendipituos environment where ideas can collide with each other|Foment a serendipituos environment where ideas can collide with each other]].
+A secondary objective is to take advantage of the randomness in spaced repetition [[foment a serendipitous environment where ideas can collide with each other|Foment a serendipitous environment where ideas can collide with each other]].
 
 This system aims to be another way of learning using writing as a way of thinking and processing information.
 
 ## Main Idea
 
-I use an adaptation of the [Leitner System](https://en.wikipedia.org/wiki/Leitner_system). Each box has a group of writing ideas that are reviewed and worked on at different frequency. If a writing idea proves productive or interesting, I bump it up to a higher frequency box; if a writing idea is not promising or I wrote "enough", I bump it down to a lower frequency box.
-## Process
-1. Create a spaced repetition writing main page in Roam.
-2. Write 6 tags in that page:
-    * SRW1. Review every day.
-    * SRW2. Review every Monday and Thursday.
-    * SRW3. Review every Monday.
-    * SRW4. Review every 2nd Monday.
-    * SRW5. Review every 4th Monday.
-    * SRWS. Suspended writing threads, review at will.
-3. New writing ideas go to SRW1.
+I use an adaptation of the [Leitner System](https://en.wikipedia.org/wiki/Leitner_system) in my personal [Roam](roamresearch.com). Each tag has a group of writing ideas that are reviewed and worked on at different frequency. Productive ideas are worked on more frequently, while unproductive ones are seen less frequently.
+
+## Setup
+
+1. Create a spaced repetition writing page in Roam.
+
+2. Write 6 tags and initialize them with a review date
+
+    * `SRW1`: `July 27th, 2020` (Every day)
+
+    * `SRW2`: `July 30th, 2020` (Every Monday and Thursday)
+
+    * `SRW3`: `August 3rd, 2020` (Every Monday)
+
+    * `SRW4`: `August 10th, 2020` (Review every 2nd Monday)
+
+    * `SRW5`: `August 24th, 2020` (Review every 4th Monday)
+
+    * `SRWS`: (Suspended writing ideas, review at will)
+
+Choose the days and frequencies and days that work best for you. I chose multiples of 7 for `SRW3-5` so that reviewing them happened during the same day so inactive ideas could appear together and encourage myself to mix them. I am still testing this system, so if it proves overwhelming, I will spread out the boxes.
+## Review and Write
+
+1. Tag new writing ideas with `SRW1`.
+
+2. To review, go to Daily Notes or today's page. Any tag that should be worked on is linked as reference below today's page.
+
+    * If a writing idea is productive or interesting, bump it to a higher frequency tag, if it's not in `SRW1` already.
+
+    * If a writing idea is not productive or it needs some inspiration, bump it to a lower frequency tag.
+
+3. After working on the writing ideas of the day, go to the spaced repetition writing page and update the review day with its appropriate frequency.
+
+## Tips
+
+Use [Roam Toolkit](https://github.com/roam-unofficial/roam-toolkit) to increment dates using keyboard shortcuts.
 
 ## References
-* Andy Matuschak talks about using spaced repetition applied to other activities in [one of his notes](https://notes.andymatuschak.org/zE8PK4UUAAWK6LEcmr8jja8JdxpUxcf1FUCX).
-* Andy Matuschak also talks on what [his idea of space repetition writing is](https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ).
-* Anne-Laure Le Cunff's post [How to build a spaced repetition system in Roam Research](https://nesslabs.com/spaced-repetition-roam-research).
+
+Andy Matuschak talks about using spaced repetition applied to other activities in [one of his notes](https://notes.andymatuschak.org/zE8PK4UUAAWK6LEcmr8jja8JdxpUxcf1FUCX).
+
+Andy Matuschak also talks on what [his idea of space repetition writing is](https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ).
+
+Anne-Laure Le Cunff's post [How to build a spaced repetition system in Roam Research](https://nesslabs.com/spaced-repetition-roam-research).
+
