@@ -1,0 +1,1 @@
+In order to find interesting connections between ideas, we have to work in an environment that encourages the interaction of seemingly unrelated ideas. 
