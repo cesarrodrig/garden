@@ -1,5 +1,5 @@
 created: 20200727223612363
-modified: 20200729210939919
+modified: 20200730195450758
 tags: 
 title: Implementing a spaced repetition writing system
 type: text/x-markdown
@@ -7,6 +7,8 @@ type: text/x-markdown
 Spaced repetition is usually used as a memorization technique, a form of processing inputs.
 
 It is also interesting to look at how spaced repetition can be applied to other cognitive activities, particularly activities that produce an output. An example is **writing**. 
+
+There are two ideas that I want to bring together: spaced repetition and incremental writing. Spaced repetition serves as a workflow for incremental writing so exciting ideas are worked on frequently and the rest are brought up once in a while. This way, we can maximize output using the minimum required effort.
 
 ## Objectives
 The main objective is to make writing a daily activity, helping to cultivate a garden of knowledge without necessarily aiming at producing long format texts.
