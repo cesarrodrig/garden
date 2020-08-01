@@ -1,6 +1,6 @@
 Roam's Daily Notes are a good starting point for an incremental writing practice because unrelated ideas can exist in the same day and the user can review them together. 
 
-* A prerequisite is to use Daily Notes as an [[Idea Inbox]].
+* A prerequisite is to use Daily Notes as an [[idea inbox|Idea Inbox]].
     
 Every day, we can add the date as a one-sided review cards, e.g. `July 30th, 2020`, and use a spaced repetition software, like Anki, to review them. 
 
