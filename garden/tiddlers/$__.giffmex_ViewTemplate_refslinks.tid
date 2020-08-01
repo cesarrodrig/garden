@@ -1,6 +1,6 @@
 caption: Simple links
 created: 20200126143031898
-modified: 20200729173155081
+modified: 20200801124555818
 tags: $:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs $:/tags/ViewTemplate
 title: $:/.giffmex/ViewTemplate/refslinks
 type: text/vnd.tiddlywiki
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 <$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
 
 <hr>
+
+<h3> Links to this note </h3>
 
 <$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
 
