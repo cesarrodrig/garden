@@ -1,6 +1,6 @@
 created: 20200728175144963
-modified: 20200728175158313
-tags: 
+modified: 20200801123857692
+tags: garden
 title: $:/garden/templates/static.template.css
 type: text/vnd.tiddlywiki
 
@@ -18,4 +18,8 @@ type: text/vnd.tiddlywiki
 
 .tc-tab-buttons {
    display: none;
+}
+
+h2 {
+    font-size: 1.25rem;
 }
