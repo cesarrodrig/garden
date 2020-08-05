@@ -1,0 +1,13 @@
+created: 20200801122037097
+modified: 20200801122040587
+tags: $:/tags/ViewTemplate garden
+title: $:/core/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-subtitle">
+<$link to={{!!modifier}} />
+<!--$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}}/-->
+</div>
+</$reveal>
