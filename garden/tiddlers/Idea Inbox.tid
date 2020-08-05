@@ -1,11 +1,11 @@
 created: 20200801103732105
-modified: 20200801104715545
+modified: 20200805203146324
 tags: 
 title: Idea Inbox
 type: text/x-markdown
 
 A place where all our ideas go to when they come up during the day. This inbox is reviewed constantly to further distill them, rewrite them, connect them to other existing ideas, and use them to create action items.
 
-It uses the [GTD](https://gettingthingsdone.com/) inbox concept and it can be the same inbox where to-do's are collected.
+We can use the same inbox we use for [GTD](https://gettingthingsdone.com/).
 
-Personally, I use Evernote as my inbox because it has a very useful Android widget where I can add a new note quickly without opening any app. When I am reviewing this inbox, I transfer notes that are ideas, rather than to-do's, to Roam's Daily Notes.
+Personally, I use Evernote as my inbox because it has a very useful Android widget where I can add a new note quickly without opening any app. When I am reviewing this inbox, I transfer notes that are ideas (rather than to-do's) to my Daily Notes in Roam.

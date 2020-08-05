@@ -1,5 +1,5 @@
 created: 20200727223612363
-modified: 20200801124441785
+modified: 20200805203031276
 tags: 
 title: Implementing a spaced repetition writing system
 type: text/x-markdown
@@ -51,6 +51,10 @@ Choose the days and frequencies and days that work best for you. I chose multipl
     * If a writing idea is not productive or it needs some inspiration, bump it to a lower frequency tag.
 
 3. After working on the writing ideas of the day, go to the spaced repetition writing page and update the review day with its appropriate frequency.
+
+## Disadvantages
+
+During a review session, it's not possible to mark a writing idea as "done" and see it until the next session, so you'll have to trust your memory to avoid going over the same idea twice. 
 
 ## Tips
 
