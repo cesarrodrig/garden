@@ -1,5 +1,5 @@
 created: 20200727223612363
-modified: 20200805203031276
+modified: 20200809180535177
 tags: 
 title: Implementing a spaced repetition writing system
 type: text/x-markdown
@@ -11,11 +11,13 @@ It is also interesting to look at how spaced repetition can be applied to other 
 There are two ideas that I want to bring together: spaced repetition and incremental writing. Spaced repetition serves as a workflow for incremental writing so exciting ideas are worked on frequently and the rest are brought up once in a while. This way, we can maximize output using the minimum required effort.
 
 ## Objectives
-The main objective is to make writing a daily activity, helping to cultivate a garden of knowledge without necessarily aiming at producing long format texts.
+1. Make writing a daily activity, helping to cultivate a garden of knowledge without necessarily aiming at producing long format texts.
 
-A secondary objective is to take advantage of the randomness in spaced repetition [[foment a serendipitous environment where ideas can collide with each other|Foment a serendipitous environment where ideas can collide with each other]].
+2. Take advantage of the randomness in spaced repetition [[foment a serendipitous environment where ideas can collide with each other|Foment a serendipitous environment where ideas can collide with each other]].
 
-This system aims to be another way of learning using writing as a way of thinking and processing information.
+3. [[Establish a process that lets me focus on writing|Establish processes so you focus on producing instead of managing]] instead of managing the ideas themselves.
+
+4. Use it as another way of learning using writing as a way of thinking and processing information.
 
 ## Main Idea
 
