@@ -1,0 +1,20 @@
+created: 20200810184038878
+modified: 20200810184256357
+title: Aim to write ACID notes
+type: text/x-markdown
+
+
+ACID (atomicity, consistency, isolation, and durability) are a set of properties a database can support to guarantee data validity.
+
+Applying this to note taking, an effective technique should produce notes that are:
+
+* Atomic. They contain only one idea.
+* Consistent. They always contain valid ideas.
+* Isolated. Their content can be modified without affecting other notes.
+* Durable. They are written to be permanent notes.
+
+## References
+
+* The [ACID](https://en.wikipedia.org/wiki/ACID) properties of a database.
+
+* The initial idea came from Andy Matuschak's [atomic notes](https://notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1).
