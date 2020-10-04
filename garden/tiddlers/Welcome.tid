@@ -1,8 +1,10 @@
 created: 20200727223545152
-modified: 20200729173514632
+modified: 20201004200051697
 title: Welcome
 type: text/vnd.tiddlywiki
 
 Hi! I'm Cesar Rodriguez. This is my [[knowledge garden|Knowledge Garden]], where I think and learn in public.
 
 These notes are the product of [[implementing a spaced repetition writing system|Implementing a spaced repetition writing system]] in [[Roam|https://roamresearch.com]].
+
+This garden is part of a [[webring with other digital gardeners|https://dg-webring.netlify.app/]]. Discover them by going to the [[next|https://dg-webring.netlify.app/next]] or [[previous|https://dg-webring.netlify.app/prev]] garden. You can also visit a [[random|https://dg-webring.netlify.app/random]] garden.
