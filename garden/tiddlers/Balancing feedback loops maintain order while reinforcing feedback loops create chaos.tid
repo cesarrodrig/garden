@@ -1,4 +1,11 @@
 created: 20210116144700913
-modified: 20210116144700977
+modified: 20210116151200581
 title: Balancing feedback loops maintain order while reinforcing feedback loops create chaos
-type: text/vnd.tiddlywiki
+type: text/x-markdown
+
+A balancing feedback loop has a goal and it tries to move the current state closer to it. Order comes from the constant reversion to the mean.
+
+A reinforcing feedback loop generates more stock the more stock there is and it creates exponential growth. It has no bound. It goes faster and faster.
+
+### Example
+As the fish get more scarce and hence more expensive, it becomes all the more profitable to go out and catch them, accelerating their depletion.
