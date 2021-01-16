@@ -1,0 +1,9 @@
+created: 20210116145410297
+modified: 20210116145505958
+tags: 
+title: Be conservative on what you do, be liberal on what you accept from others
+type: text/vnd.tiddlywiki
+
+You should be as stable and robust as possible by being able to take whatever in and have the same output.
+
+In software engineering, a piece of code should be able to accept any kind of crazy input but be sturdy enough to return a valid output.

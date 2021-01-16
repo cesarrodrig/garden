@@ -1,0 +1,1 @@
+If the resource required to win a competition is finite, which it usually is, and the winner is awarded this resource, the result is the elimination of all but a few competitors. Therefore, the reinforcing feedback loop is a selective mechanism.

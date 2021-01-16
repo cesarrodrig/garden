@@ -1,0 +1,10 @@
+created: 20210116141905371
+modified: 20210116142019525
+title: Feedback loops cause changes in a future state based on a past state
+type: text/x-markdown
+
+It is crucial to remember that there are always delays in responding to changes. **Feedback loops will react only after certain time and with respect to a past state. If the incoming changes are slight outdated, the resulting reaction will be too.**
+
+That is one of the flaws in economic models that assume that a change in price will instantaneously be faced with a change in demand. The market takes time to react to a change in price.
+
+Not only slow reaction times tamper with a system, [[a balancing feedback can produce oscillations if its reaction time is too short|A balancing feedback can produce oscillations if its reaction time is too short]].
