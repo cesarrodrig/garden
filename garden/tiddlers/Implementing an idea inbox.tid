@@ -1,14 +1,16 @@
 created: 20200810183841602
-modified: 20200810185149994
+modified: 20210121223328661
 title: Implementing an idea inbox
 type: text/x-markdown
 
-I use an Evernote notebook as my idea inbox* because the Android app has a very useful widget where I can add a new note quickly from my home screen. It takes me a few seconds to write down anything I want.
+I use a Todoist as my idea inbox* because the Android app has a very useful widget where I can add a new note quickly from my home screen. It takes me a few seconds to write down anything I want. 
 
-When I am processing this inbox, I transfer my ideas to the Daily Notes in Roam. They remain in raw form until I review them as [[spaced repetition cards|Daily Notes as an incremental writing system]], where I rework them and expand them. 
+The idea notes have the tag `roam` because I have a script that runs every few hours and transfers them to today's Daily Notes in Roam.
 
-At this point, they are still not [[ACID notes|Aim to write ACID notes]] but some of them will become one as they get reviewed more and/or get added as a writing idea to [[my spaced repetition writing system|Implementing a spaced repetition writing system]].
+The idea notes remain in raw form until I review them as [[spaced repetition cards|Daily Notes as an incremental writing system]], where I rework them and expand them. 
+
+At this point, they are still not [[ACID notes|Aim to write ACID notes]] but some of them will become one as they get reviewed more and, maybe, be added as a writing idea to [[my spaced repetition writing system|Implementing a spaced repetition writing system]].
 
 ## Notes
 
-\* It also works as my GTD inbox. During the _Process_ and _Organize_ steps, to-do's remain in Evernote while ideas go to Roam.
+* It also works as my GTD inbox. During the __Process__ and __Organize__ steps, to-do's remain in Todoist while ideas go to Roam.
