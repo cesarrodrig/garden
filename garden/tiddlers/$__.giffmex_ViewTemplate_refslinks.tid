@@ -9,11 +9,24 @@ type: text/vnd.tiddlywiki
 
 <$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
 
-<hr>
-
-<h3> Links to this note </h3>
 
 <$vars searchme=<<currentTiddler>> searchspx={{{ [<currentTiddler>escaperegexp[]]}}} >
+
+<$set name="hasBacklinksText" filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]" value="!!! Links to this note" emptyValue="">
+
+<$set name="hasBacklinksHr" filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]" value="----" emptyValue="">
+
+<$wikify name="wikified-hr" text=<<hasBacklinksHr>> output="html">
+<<wikified-hr>>
+</$wikify>
+
+<$wikify name="wikified-header" text=<<hasBacklinksText>> output="html">
+<<wikified-header>>
+</$wikify>
+
+</$set>
+
+</$set>
 
 <$list filter="[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]"><$link><$view field="title" /></$link><br></$list>
 </$vars>
