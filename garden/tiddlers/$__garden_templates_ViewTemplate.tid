@@ -14,3 +14,16 @@ $:/state/folded/$(currentTiddler)$
 
 </div>
 </$vars>
+
+<footer class="text-center" id="footer">
+	<div id="social">
+  <a style="color: #007bff;" href="https://cesarr.co">cesarr.co</a> •
+  <a style="color: #007bff;" href="https://www.twitter.com/cesarrodvil">Twitter</a> •
+  <a style="color: #007bff;" href="https://www.github.com/cesarrodrig">Github</a>
+</div>
+    <p class="small">
+       © Copyright 2021 <i class="fa fa-heart" aria-hidden="true"></i> César Rodríguez
+    </p>
+
+
+</footer>

@@ -32,8 +32,8 @@ external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-background: inherit
 external-link-foreground-hover: inherit
-external-link-foreground-visited: #043BB1
-external-link-foreground: #043BB1
+external-link-foreground-visited: #0452b1
+external-link-foreground: #0452b1
 foreground: #333333
 message-background: #ecf2ff
 message-border: #cfd6e6
