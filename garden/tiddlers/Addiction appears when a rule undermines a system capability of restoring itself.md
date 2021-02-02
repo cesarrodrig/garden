@@ -1,0 +1,5 @@
+Government subsidies are common examples. Small farms struggle to keep up with the technological advantage that large-scale farms have. When governments intervene with subsidies, they take away the feedback signal that nudges small farms to improve or restore themselves to competitive levels. This does not mean subsidies are bad, only that they should have the right incentives so receivers can lift themselves back and be self-sufficient once again.
+
+Self-image and diet are another example. We don't feel good about ourselves so we reach out to food to feel better. This rule we are using undermines our ability to lose weight or be healthy and have a better self-image.
+
+If we stop the rule or behavior causing the addiction, the system will commonly suffer withdrawal. This [[pain is a trigger for reflection|Pain is a trigger for reflection]] on what weakness the addictive behavior is compensating for.
