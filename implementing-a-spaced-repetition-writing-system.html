@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.23" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<link rel="stylesheet" href="static.css">
+<title>Implementing a spaced repetition writing system: Knowledge Garden — a place to plant and harvest ideas</title>
+</head>
+<body class="tc-body">
+<p><nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid text-center">
+  <a class="navbar-brand" href="./welcome.html">🌱 Garden of Cesar</a>
+  
+</div>
+</nav>
+</p>
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="Implementing a spaced repetition writing system"><p><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><h2 class="tc-title">Implementing a spaced repetition writing system</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="./.html"></a></div></div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"></div>
+</div>
+
+<div class="tc-tiddler-body tc-reveal"><p>Spaced repetition is usually used as a memorization technique, a form of processing inputs.</p><p>It is also interesting to look at how spaced repetition can be applied to other cognitive activities, particularly activities that produce an output. An example is <strong>writing</strong>.</p><p>There are two ideas that I want to bring together: spaced repetition and incremental writing. Spaced repetition serves as a workflow for incremental writing so exciting ideas are worked on frequently and the rest are brought up once in a while. This way, we can maximize output using the minimum required effort.</p><h2>Objectives</h2><ol><li><p>Make writing a daily activity, helping to cultivate a garden of knowledge without necessarily aiming at producing long format texts.</p></li><li><p>Take advantage of the randomness in spaced repetition <a class="tc-tiddlylink tc-tiddlylink-resolves" href="./foment-a-serendipitous-environment-where-ideas-can-collide-with-each-other.html">foment a serendipitous environment where ideas can collide with each other</a>.</p></li><li><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="./establish-processes-so-you-focus-on-producing-instead-of-managing.html">Establish a process that puts focus on writing without having to worry about running out of material or losing interesting topics</a>.</p></li><li><p>Reading and <a class="tc-tiddlylink tc-tiddlylink-resolves" href="./reviewing-feels-like-learning-but-it-is-not.html">reviewing feels like learning but it is not</a>. Writing forces us to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="./learning-is-what-happens-when-inputs-are-processed-into-outputs.html">process what we read</a>.</p></li></ol><h2>Main Idea</h2><p>I have been using <a class="tc-tiddlylink-external" href="roamresearch.com" rel="noopener noreferrer" target="_blank">Roam</a>'s Daily Notes as my <a class="tc-tiddlylink tc-tiddlylink-resolves" href="./idea-inbox.html">idea inbox</a>, which  later <a class="tc-tiddlylink tc-tiddlylink-resolves" href="./daily-notes-as-an-incremental-writing-system.html">evolved into an incremental writing system</a>. To integrate spaced repetition into this system, I use an adaptation of the <a class="tc-tiddlylink-external" href="https://en.wikipedia.org/wiki/Leitner_system" rel="noopener noreferrer" target="_blank">Leitner System</a> in my personal Roam. Each tag has a group of writing ideas that are reviewed and worked on at different frequency. Productive ideas are worked on more frequently, while unproductive ones are seen less frequently.</p><h2>Setup</h2><ol><li><p>Create a spaced repetition writing page in Roam.</p></li><li><p>Write 6 tags and initialize them with a review date</p><ul><li><p><code>SRW1</code>: <code>July 27th, 2020</code> (Every day)</p></li><li><p><code>SRW2</code>: <code>July 30th, 2020</code> (Every Monday and Thursday)</p></li><li><p><code>SRW3</code>: <code>August 3rd, 2020</code> (Every Monday)</p></li><li><p><code>SRW4</code>: <code>August 10th, 2020</code> (Review every 2nd Monday)</p></li><li><p><code>SRW5</code>: <code>August 24th, 2020</code> (Review every 4th Monday)</p></li><li><p><code>SRWS</code>: (Suspended writing ideas, review at will)</p></li></ul></li></ol><p>Choose the days and frequencies and days that work best for you. I chose multiples of 7 for <code>SRW3-5</code> so that reviewing them happened during the same day so inactive ideas could appear together and encourage myself to mix them. I am still testing this system, so if it proves overwhelming, I will spread out the boxes.</p><h2>Review and Write</h2><ol><li><p>Tag new writing ideas with <code>SRW1</code>.</p></li><li><p>To review, go to Daily Notes or today's page. Any tag that should be worked on is linked as reference below today's page.</p><ul><li><p>If a writing idea is productive or interesting, bump it to a higher frequency tag, if it's not in <code>SRW1</code> already.</p></li><li><p>If a writing idea is not productive or it needs some inspiration, bump it to a lower frequency tag.</p></li></ul></li><li><p>After working on the writing ideas of the day, go to the spaced repetition writing page and update the review day with its appropriate frequency.</p></li></ol><h2>Disadvantages</h2><p>During a review session, it's not possible to mark a writing idea as &quot;done&quot; and see it until the next session, so you'll have to trust your memory to avoid going over the same idea twice.</p><h2>Tips</h2><p>Use <a class="tc-tiddlylink-external" href="https://github.com/roam-unofficial/roam-toolkit" rel="noopener noreferrer" target="_blank">Roam Toolkit</a> to increment dates using keyboard shortcuts.</p><h2>References</h2><ul><li><p>Andy Matuschak talks about using spaced repetition applied to other activities in <a class="tc-tiddlylink-external" href="https://notes.andymatuschak.org/zE8PK4UUAAWK6LEcmr8jja8JdxpUxcf1FUCX" rel="noopener noreferrer" target="_blank">one of his notes</a>.</p></li><li><p>Andy Matuschak also talks on what <a class="tc-tiddlylink-external" href="https://notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ" rel="noopener noreferrer" target="_blank">his idea of space repetition writing is</a>.</p></li><li><p>Anne-Laure Le Cunff's post <a class="tc-tiddlylink-external" href="https://nesslabs.com/spaced-repetition-roam-research" rel="noopener noreferrer" target="_blank">How to build a spaced repetition system in Roam Research</a>.</p></li></ul></div>
+
+<div class="tc-tiddler-plugin-info tc-reveal"><p>
+</p></div><span class="viewtemplatebigtext"><div class=" tc-reveal"><p>
+<hr>
+</p><p>
+<h3 class="">Links to this note</h3>
+</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="./build-systems-that-let-you-focus-on-engaging-activities.html">Build systems that let you focus on engaging activities</a><br><a class="tc-tiddlylink tc-tiddlylink-resolves" href="./implementing-an-idea-inbox.html">Implementing an idea inbox</a><br><a class="tc-tiddlylink tc-tiddlylink-resolves" href="./reviewing-feels-like-learning-but-it-is-not.html">Reviewing feels like learning but it is not</a><br><a class="tc-tiddlylink tc-tiddlylink-resolves" href="./welcome.html">Welcome</a><br>
+</p></div></span>
+</p></div>
+</p><p><footer class="text-center" id="footer">
+	<div id="social">
+  <a href="https://cesarr.co" style="color: #007bff;">cesarr.co</a> •
+  <a href="https://www.twitter.com/cesarrodvil" style="color: #007bff;">Twitter</a> •
+  <a href="https://www.github.com/cesarrodrig" style="color: #007bff;">Github</a>
+</div>
+    <p class="small">
+       © Copyright 2021 <i aria-hidden="true" class="fa fa-heart"></i> César Rodríguez
+    </p>
+
+
+</footer>
+</p>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
